@@ -4,7 +4,7 @@
   "description": "testing with mysql",
   "main": "index.js",
   "scripts": {
-    "start": "tsc && node dist/app.js"
+    "dev": "ts-node-dev --respawn --pretty --transpile-only app.ts"
   },
   "author": "",
   "license": "ISC",
